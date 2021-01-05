@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/registar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#AB87FF"
+        android:drawableStart="@drawable/add_circle"
+        android:drawableLeft="@drawable/add_circle"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="200dp"
+        android:paddingRight="200dp"
+        android:text="@string/register"
+        android:textSize="20sp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/animais"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B4E1FF"
+        android:drawableStart="@drawable/pets"
+        android:drawableLeft="@drawable/pets"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="200dp"
+        android:paddingRight="200dp"
+        android:text="@string/animals"
+        android:textSize="20sp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/alertas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF99DD"
+        android:drawableStart="@drawable/alert"
+        android:drawableLeft="@drawable/alert"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="200dp"
+        android:paddingRight="200dp"
+        android:text="@string/alerts"
+        android:textSize="20sp"
+        android:layout_weight="1"/>
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFF7C0"
+        android:drawableStart="@drawable/logout"
+        android:drawableLeft="@drawable/logout"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="200dp"
+        android:paddingRight="200dp"
+        android:text="@string/logout"
+        android:textSize="20sp"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

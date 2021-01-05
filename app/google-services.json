@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "112052004966",
+    "project_id": "feedingtime-3213a",
+    "storage_bucket": "feedingtime-3213a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112052004966:android:d92d63f899f9bfca8965a7",
+        "android_client_info": {
+          "package_name": "com.example.feedingtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112052004966-ttpgkb388ml67v59ijlht862tkv4gpqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.feedingtime",
+            "certificate_hash": "78848dbb206d9625989d5a029ceb9bf70954e269"
+          }
+        },
+        {
+          "client_id": "112052004966-aqfl5dar9f9bdf1dp2lsb7lnht6jm3q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDGt2K-YvZzjbBpcBiNOsVuB1vN_-RfMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112052004966-aqfl5dar9f9bdf1dp2lsb7lnht6jm3q0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
