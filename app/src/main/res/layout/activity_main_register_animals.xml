@@ -12,32 +12,17 @@
         android:layout_width="322dp"
         android:layout_height="45dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Name"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.137" />
+        app:layout_constraintVertical_bias="0.239" />
 
     <EditText
-        android:id="@+id/birthday"
-        android:layout_width="322dp"
-        android:layout_height="45dp"
-        android:ems="10"
-        android:inputType="date"
-        android:hint="DD/MM/YYYY"
-        android:clickable="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.478"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237" />
-
-    <EditText
-        android:id="@+id/breed"
+        android:id="@+id/animal_breed"
         android:layout_width="322dp"
         android:layout_height="45dp"
         android:ems="10"
@@ -51,7 +36,7 @@
         app:layout_constraintVertical_bias="0.341" />
 
     <EditText
-        android:id="@+id/species"
+        android:id="@+id/animal_species"
         android:layout_width="322dp"
         android:layout_height="45dp"
         android:ems="10"
@@ -64,10 +49,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.448" />
 
-    <Spinner
-        android:id="@+id/food"
+    <EditText
+        android:id="@+id/animal_food"
         android:layout_width="322dp"
         android:layout_height="45dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="Food"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.478"
@@ -76,7 +64,7 @@
         app:layout_constraintVertical_bias="0.548" />
 
     <EditText
-        android:id="@+id/times"
+        android:id="@+id/timesperday"
         android:layout_width="148dp"
         android:layout_height="45dp"
         android:ems="10"
@@ -90,7 +78,7 @@
         app:layout_constraintVertical_bias="0.651" />
 
     <EditText
-        android:id="@+id/quantity"
+        android:id="@+id/quantityperday"
         android:layout_width="148dp"
         android:layout_height="45dp"
         android:ems="10"
