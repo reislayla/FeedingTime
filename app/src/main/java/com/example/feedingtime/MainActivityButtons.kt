@@ -30,20 +30,27 @@ class MainActivityButtons : AppCompatActivity() {
         oBotaoLogout = findViewById(R.id.logout)
 
         //onClick
+        //Animal register
         oBotaoReg.setOnClickListener {
             executeActivityButtons(MainActivityRegisterAnimals::class.java)
         }
+        //Logout
         oBotaoLogout.setOnClickListener {
             Toast.makeText(this,"Logging Out...", Toast.LENGTH_LONG).show()
             signOut()
             executeActivityButtons(MainActivity::class.java)
         }
-        //Logout
         firebaseAuth.addAuthStateListener {
             if(firebaseAuth.currentUser==null) {
                 this.finish()
             }
         }
+        //Animal list
+        oBotaoAnim.setOnClickListener {
+            executeActivityButtons(MainActivityAnimals::class.java)
+        }
+
+        //Alerts
     }
 
     //Execute ActivityButtons Function
