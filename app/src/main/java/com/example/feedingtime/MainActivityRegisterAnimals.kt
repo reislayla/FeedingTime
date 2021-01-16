@@ -75,7 +75,6 @@ class MainActivityRegisterAnimals : AppCompatActivity() {
         //Save
         buttonSave.setOnClickListener {
             sendData()
-            startActivity(Intent(applicationContext,MainActivityAnimals::class.java ))
         }
     }
 
@@ -109,7 +108,7 @@ class MainActivityRegisterAnimals : AppCompatActivity() {
         val foodQuantity = theFoodQuantity.text.toString().toInt()
         val foodTimes = theFoodTimes.text.toString().toInt()
 
-        if(animalName.isNotEmpty() && animalBreed.isNotEmpty() && animalSpecies.isNotEmpty() && animalFood.isNotEmpty()) {
+        if(animalName.isNotEmpty() && animalBreed.isNotEmpty() && animalSpecies.isNotEmpty() && animalFood.isNotEmpty() && foodQuantity != null && foodTimes != null) {
 
             //Loading
             var progressDialog = ProgressDialog(this@MainActivityRegisterAnimals)
@@ -128,6 +127,7 @@ class MainActivityRegisterAnimals : AppCompatActivity() {
                     //upload successfully
                     progressDialog.dismiss()
                     Toast.makeText(applicationContext, "Animal successfully registered", Toast.LENGTH_LONG).show()
+                    startActivity(Intent(applicationContext,MainActivityAnimals::class.java ))
                 }
                 .addOnFailureListener{p0 ->
                     //not uploaded

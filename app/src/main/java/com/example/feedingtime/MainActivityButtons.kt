@@ -51,6 +51,9 @@ class MainActivityButtons : AppCompatActivity() {
         }
 
         //Alerts
+        oBotaoAlert.setOnClickListener {
+            executeActivityButtons(AlertsAndNewAlert::class.java)
+        }
     }
 
     //Execute ActivityButtons Function
